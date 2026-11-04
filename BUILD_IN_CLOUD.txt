@@ -1,0 +1,20 @@
+COMPILAR THE SMILER APK DESDE TU TELEFONO
+
+1. Crea una cuenta gratuita en https://github.com si no tienes una.
+2. En Chrome, abre GitHub y crea un repositorio nuevo llamado TheSmiler.
+3. Descomprime este ZIP en tu teléfono.
+4. Sube TODOS los archivos y carpetas del proyecto al repositorio, incluida la carpeta oculta .github/workflows.
+   IMPORTANTE: si el sitio móvil no permite subir carpetas, usa la opción "Add file > Upload files" desde un navegador en modo escritorio.
+5. En el repositorio, abre la pestaña Actions.
+6. Selecciona "Build THE SMILER APK" y pulsa "Run workflow".
+7. Espera a que termine el trabajo con una marca verde.
+8. Abre la ejecución terminada y baja hasta Artifacts.
+9. Descarga "THE-SMILER-APK.zip", descomprímelo y abre app-debug.apk para instalarlo.
+
+Si Android pregunta, permite instalar aplicaciones desde Chrome o desde la app Archivos.
+
+NOTAS:
+- GitHub Actions compila el APK debug; no es una publicación firmada para Play Store.
+- El APK se puede instalar en tu propio Android.
+- El juego usa Three.js desde un CDN, por lo que necesita internet al abrirlo.
+- Mantén el repositorio privado si no quieres compartir el código públicamente.
